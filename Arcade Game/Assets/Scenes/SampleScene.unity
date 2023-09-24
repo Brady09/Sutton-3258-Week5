@@ -1519,6 +1519,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8459362178045677153, guid: f8c7f38e573e1fb4dbc83fa66f5befbf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e701f27df8b65d4a986aadfda737a2f, type: 2}
     - target: {fileID: 8459362178045677157, guid: f8c7f38e573e1fb4dbc83fa66f5befbf, type: 3}
       propertyPath: m_Name
       value: Paddle (1) Variant
