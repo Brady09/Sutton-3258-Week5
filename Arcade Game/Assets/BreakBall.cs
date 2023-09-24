@@ -19,7 +19,7 @@ public class BreakBall : MonoBehaviour
     {
         if (collision.gameObject.tag == "Brick")
         {
-            this.gameObject.SetActive(false);
+            Destroy(this.gameObject);
         }
     }
 }
