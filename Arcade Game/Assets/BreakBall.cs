@@ -17,6 +17,9 @@ public class BreakBall : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        this.gameObject.SetActive(false);
+        if (collision.gameObject.tag == "Brick")
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 }
