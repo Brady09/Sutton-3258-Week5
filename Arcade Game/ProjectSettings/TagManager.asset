@@ -8,6 +8,7 @@ TagManager:
   - leftScore
   - Miised
   - Missed
+  - Brick
   layers:
   - Default
   - TransparentFX
